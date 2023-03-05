@@ -1,0 +1,15 @@
+.App{
+    position: relative;
+    background-color: #EFF2F4;
+}
+.mainWrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px 10px 0 0;
+    min-height: 100vh;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #EFF2F4;
+}

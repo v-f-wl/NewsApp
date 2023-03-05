@@ -1,0 +1,31 @@
+.Profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 230px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 5px rgba(37, 60, 85, 0.09);
+    border-radius: 10px;
+    cursor: pointer;
+    &Container{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    &Photo{
+        width: 100%;
+        max-width: 30px;
+        aspect-ratio: 1 / 1;
+        border-radius: 10px;
+    }
+    &Name{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: capitalize;
+        color: #253C55;
+    }
+}

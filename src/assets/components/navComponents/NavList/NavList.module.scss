@@ -1,0 +1,21 @@
+.NavList{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    list-style: none;
+    &Item{
+        padding-left: 50px;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: capitalize;
+        &Active{
+            background: #ED774E;
+            border-radius: 50px;
+            color: #FFFFFF;
+        }
+    }
+}
